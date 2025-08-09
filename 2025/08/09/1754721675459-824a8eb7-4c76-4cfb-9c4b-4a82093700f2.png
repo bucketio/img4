@@ -1,0 +1,53 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004499;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc5555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="600" height="400" fill="#f8f9fa"/>
+  
+  <!-- 标题 -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">央国企职场层级与红利分配</text>
+  
+  <!-- 金字塔结构 -->
+  <!-- 高层 -->
+  <polygon points="250,80 350,80 320,120 280,120" fill="url(#gradient1)" stroke="#fff" stroke-width="2"/>
+  <text x="300" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">高层管理</text>
+  
+  <!-- 中层 -->
+  <polygon points="200,120 400,120 380,180 220,180" fill="url(#gradient1)" stroke="#fff" stroke-width="2"/>
+  <text x="300" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">中层管理</text>
+  
+  <!-- 基层 -->
+  <polygon points="150,180 450,180 430,260 170,260" fill="url(#gradient2)" stroke="#fff" stroke-width="2"/>
+  <text x="300" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">基层员工</text>
+  
+  <!-- 红利指示箭头和文字 -->
+  <g>
+    <!-- 高层红利 -->
+    <circle cx="480" cy="100" r="8" fill="#28a745"/>
+    <text x="500" y="105" font-family="Arial, sans-serif" font-size="12" fill="#28a745">最高红利</text>
+    
+    <!-- 中层红利 -->
+    <circle cx="480" cy="150" r="8" fill="#ffc107"/>
+    <text x="500" y="155" font-family="Arial, sans-serif" font-size="12" fill="#ffc107">体制红利解锁</text>
+    
+    <!-- 基层困境 -->
+    <circle cx="480" cy="220" r="8" fill="#dc3545"/>
+    <text x="500" y="225" font-family="Arial, sans-serif" font-size="12" fill="#dc3545">稳定神话破灭</text>
+  </g>
+  
+  <!-- 关键信息框 -->
+  <rect x="50" y="300" width="500" height="80" fill="#fff" stroke="#0066cc" stroke-width="2" rx="5"/>
+  <text x="70" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0066cc">核心观点：</text>
+  <text x="70" y="340" font-family="Arial, sans-serif" font-size="12" fill="#333">• 基层面临竞聘-转岗-内退困境</text>
+  <text x="70" y="355" font-family="Arial, sans-serif" font-size="12" fill="#333">• 中层享受稳定性和薪资全面提升</text>
+  <text x="70" y="370" font-family="Arial, sans-serif" font-size="12" fill="#333">• 唯有晋升至中层才能真正享受体制红利</text>
+</svg>
