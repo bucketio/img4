@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f6f4ef"/>
+  <text x="72" y="86" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="700" fill="#17202a">技术代际对比：机器人模型从技能专家走向通用行动者</text>
+  <text x="72" y="126" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#5d6670">这张图帮助读者判断 Qwen-VLA 的变化不是“多一个模型”，而是训练范式和商业控制点的迁移。</text>
+  <line x1="80" y1="190" x2="1120" y2="190" stroke="#c7c2b8" stroke-width="3"/>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+    <circle cx="160" cy="190" r="22" fill="#3a6ea5"/>
+    <text x="127" y="245" font-size="22" font-weight="700" fill="#17202a">单任务策略</text>
+    <text x="104" y="282" font-size="17" fill="#4d5963">一个场景</text>
+    <text x="104" y="310" font-size="17" fill="#4d5963">一套数据</text>
+    <text x="104" y="338" font-size="17" fill="#4d5963">一个动作头</text>
+    <rect x="96" y="380" width="168" height="96" rx="12" fill="#ffffff" stroke="#d8d3ca"/>
+    <text x="122" y="420" font-size="18" font-weight="700" fill="#3a6ea5">商业瓶颈</text>
+    <text x="122" y="452" font-size="16" fill="#4d5963">项目制交付</text>
+  </g>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+    <circle cx="430" cy="190" r="22" fill="#2f8f83"/>
+    <text x="371" y="245" font-size="22" font-weight="700" fill="#17202a">视觉语言动作</text>
+    <text x="352" y="282" font-size="17" fill="#4d5963">图像理解</text>
+    <text x="352" y="310" font-size="17" fill="#4d5963">语言指令</text>
+    <text x="352" y="338" font-size="17" fill="#4d5963">连续控制</text>
+    <rect x="338" y="380" width="190" height="96" rx="12" fill="#ffffff" stroke="#d8d3ca"/>
+    <text x="366" y="420" font-size="18" font-weight="700" fill="#2f8f83">关键跃迁</text>
+    <text x="366" y="452" font-size="16" fill="#4d5963">动作成为语义接口</text>
+  </g>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+    <circle cx="710" cy="190" r="22" fill="#b35f2a"/>
+    <text x="652" y="245" font-size="22" font-weight="700" fill="#17202a">多任务统一</text>
+    <text x="622" y="282" font-size="17" fill="#4d5963">操作 Manipulation</text>
+    <text x="622" y="310" font-size="17" fill="#4d5963">导航 Navigation</text>
+    <text x="622" y="338" font-size="17" fill="#4d5963">轨迹预测 Forecasting</text>
+    <rect x="610" y="380" width="212" height="96" rx="12" fill="#ffffff" stroke="#d8d3ca"/>
+    <text x="638" y="420" font-size="18" font-weight="700" fill="#b35f2a">平台能力</text>
+    <text x="638" y="452" font-size="16" fill="#4d5963">一套底座适配多机型</text>
+  </g>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+    <circle cx="1005" cy="190" r="22" fill="#7d4f9f"/>
+    <text x="942" y="245" font-size="22" font-weight="700" fill="#17202a">Agentic 行动模型</text>
+    <text x="922" y="282" font-size="17" fill="#4d5963">任务规划</text>
+    <text x="922" y="310" font-size="17" fill="#4d5963">环境反馈</text>
+    <text x="922" y="338" font-size="17" fill="#4d5963">跨形态迁移</text>
+    <rect x="900" y="380" width="232" height="96" rx="12" fill="#ffffff" stroke="#d8d3ca"/>
+    <text x="928" y="420" font-size="18" font-weight="700" fill="#7d4f9f">估值变量</text>
+    <text x="928" y="452" font-size="16" fill="#4d5963">数据闭环和部署规模</text>
+  </g>
+  <rect x="84" y="560" width="1032" height="104" rx="16" fill="#17202a"/>
+  <text x="126" y="608" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">判断</text>
+  <text x="196" y="608" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#ffffff">机器人公司的差距会从“能不能做出一个 demo”，转向“能否持续吸收多形态数据并快速适配客户现场”。</text>
+  <text x="196" y="648" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#d8dde2">Qwen-VLA 把动作模型推向底座化，硬件、数据、仿真和交付体系都会重新分层。</text>
+</svg>
