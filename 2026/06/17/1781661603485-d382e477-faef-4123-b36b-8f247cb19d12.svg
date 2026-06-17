@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <marker id="arrow2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#334155"/>
+    </marker>
+    <radialGradient id="splatA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0.05"/>
+    </radialGradient>
+    <radialGradient id="splatB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0.04"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="540" fill="#f7f8fb"/>
+  <text x="480" y="54" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="700" fill="#111827">高斯溅射渲染过程</text>
+  <text x="480" y="88" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#4b5563">三维高斯体投影到相机画面后，变成二维椭圆斑点并按透明度混合</text>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <rect x="72" y="148" width="270" height="260" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="207" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">三维空间</text>
+    <path d="M135 346 L255 346 L300 300 L180 300 Z" fill="#e5e7eb" stroke="#94a3b8"/>
+    <line x1="135" y1="346" x2="135" y2="230" stroke="#94a3b8"/>
+    <line x1="255" y1="346" x2="255" y2="230" stroke="#94a3b8"/>
+    <line x1="300" y1="300" x2="300" y2="184" stroke="#94a3b8"/>
+    <line x1="180" y1="300" x2="180" y2="184" stroke="#94a3b8"/>
+    <path d="M135 230 L255 230 L300 184 L180 184 Z" fill="none" stroke="#94a3b8"/>
+    <ellipse cx="190" cy="270" rx="48" ry="22" transform="rotate(-20 190 270)" fill="#2563eb" opacity="0.72"/>
+    <ellipse cx="250" cy="316" rx="60" ry="26" transform="rotate(14 250 316)" fill="#f97316" opacity="0.62"/>
+    <ellipse cx="232" cy="236" rx="34" ry="16" transform="rotate(36 232 236)" fill="#10b981" opacity="0.58"/>
+  </g>
+
+  <line x1="366" y1="278" x2="514" y2="278" stroke="#334155" stroke-width="3" marker-end="url(#arrow2)"/>
+  <text x="440" y="252" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#334155">投影到相机</text>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <rect x="548" y="130" width="330" height="296" rx="8" fill="#111827" stroke="#0f172a"/>
+    <rect x="584" y="170" width="258" height="190" rx="4" fill="#f8fafc"/>
+    <text x="713" y="397" text-anchor="middle" font-size="18" font-weight="700" fill="#f8fafc">二维图像平面</text>
+    <ellipse cx="682" cy="260" rx="78" ry="34" transform="rotate(-16 682 260)" fill="url(#splatB)"/>
+    <ellipse cx="735" cy="286" rx="88" ry="38" transform="rotate(12 735 286)" fill="url(#splatA)"/>
+    <ellipse cx="715" cy="226" rx="52" ry="24" transform="rotate(30 715 226)" fill="#10b981" opacity="0.34"/>
+    <circle cx="612" cy="204" r="4" fill="#94a3b8"/>
+    <circle cx="817" cy="336" r="4" fill="#94a3b8"/>
+    <text x="713" y="458" text-anchor="middle" font-size="15" fill="#4b5563">多个斑点按深度和透明度叠加，形成最终颜色</text>
+  </g>
+</svg>
