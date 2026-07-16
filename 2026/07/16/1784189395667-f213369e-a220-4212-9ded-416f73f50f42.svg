@@ -1,0 +1,86 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="700" height="360">
+  <rect width="700" height="360" fill="#f8f9fa" rx="8"/>
+  <rect x="0" y="0" width="700" height="360" fill="none" stroke="#dee2e6" stroke-width="1" rx="8"/>
+  <text x="350" y="30" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" font-weight="bold" fill="#2c3e50">可研报告撰写时间分配：专业判断不到一半</text>
+  
+  <!-- Pie chart representation as stacked bar -->
+  <g transform="translate(350, 55)">
+    <rect x="-250" y="0" width="500" height="40" rx="20" fill="#e0e0e0"/>
+    
+    <!-- Segments -->
+    <path d="M-250,20 A250,20 0 0,1 -100,0 L-100,40 A250,20 0 0,1 -250,20 Z" fill="#e53935" opacity="0.8"/>
+    <path d="M-100,0 A250,20 0 0,1 50,0 L50,40 A250,20 0 0,1 -100,40 Z" fill="#5b6abf" opacity="0.8"/>
+    <path d="M50,0 A250,20 0 0,1 200,0 L200,40 A250,20 0 0,1 50,40 Z" fill="#ff6b35" opacity="0.8"/>
+    <path d="M200,0 A250,20 0 0,1 250,20 L250,20 A250,20 0 0,1 200,40 Z" fill="#2e7d32" opacity="0.8"/>
+    
+    <text x="350" y="58" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#fff">时间流向</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(60, 115)">
+    <rect x="0" y="0" width="140" height="50" rx="6" fill="#fce4ec" stroke="#e53935" stroke-width="1"/>
+    <rect x="10" y="10" width="16" height="12" rx="2" fill="#e53935" opacity="0.8"/>
+    <text x="32" y="22" font-family="'Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#e53935">~25%</text>
+    <text x="10" y="40" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">信息检索</text>
+  </g>
+  <g transform="translate(215, 115)">
+    <rect x="0" y="0" width="140" height="50" rx="6" fill="#f0f4ff" stroke="#5b6abf" stroke-width="1"/>
+    <rect x="10" y="10" width="16" height="12" rx="2" fill="#5b6abf" opacity="0.8"/>
+    <text x="32" y="22" font-family="'Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#5b6abf">~15%</text>
+    <text x="10" y="40" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">数据核对</text>
+  </g>
+  <g transform="translate(370, 115)">
+    <rect x="0" y="0" width="140" height="50" rx="6" fill="#fff3e0" stroke="#ff6b35" stroke-width="1"/>
+    <rect x="10" y="10" width="16" height="12" rx="2" fill="#ff6b35" opacity="0.8"/>
+    <text x="32" y="22" font-family="'Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#ff6b35">~20%</text>
+    <text x="10" y="40" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">格式调整</text>
+  </g>
+  <g transform="translate(525, 115)">
+    <rect x="0" y="0" width="140" height="50" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/>
+    <rect x="10" y="10" width="16" height="12" rx="2" fill="#2e7d32" opacity="0.8"/>
+    <text x="32" y="22" font-family="'Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">~40%</text>
+    <text x="10" y="40" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">专业判断</text>
+  </g>
+  
+  <!-- Detailed breakdown section -->
+  <g transform="translate(60, 185)">
+    <text x="0" y="15" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">细分环节时间消耗</text>
+    
+    <rect x="0" y="25" width="580" height="20" rx="3" fill="#f5f5f5"/>
+    <rect x="0" y="25" width="180" height="20" rx="3" fill="#e53935" opacity="0.6"/>
+    <text x="10" y="39" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#333">资料收集 (4-6h)</text>
+    <text x="560" y="39" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">15%</text>
+    
+    <rect x="0" y="50" width="580" height="20" rx="3" fill="#f5f5f5"/>
+    <rect x="0" y="50" width="145" height="20" rx="3" fill="#e53935" opacity="0.4"/>
+    <text x="10" y="64" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#333">政策检索 (3-5h)</text>
+    <text x="560" y="64" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">12%</text>
+    
+    <rect x="0" y="75" width="580" height="20" rx="3" fill="#f5f5f5"/>
+    <rect x="0" y="75" width="60" height="20" rx="3" fill="#5b6abf" opacity="0.5"/>
+    <text x="10" y="89" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#333">大纲搭建 (1-2h)</text>
+    <text x="560" y="89" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">5%</text>
+    
+    <rect x="0" y="100" width="580" height="20" rx="3" fill="#f5f5f5"/>
+    <rect x="0" y="100" width="300" height="20" rx="3" fill="#2e7d32" opacity="0.5"/>
+    <text x="10" y="114" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#333">正文撰写 (10-15h) ← 含专业判断</text>
+    <text x="560" y="114" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">40%</text>
+    
+    <rect x="0" y="125" width="580" height="20" rx="3" fill="#f5f5f5"/>
+    <rect x="0" y="125" width="170" height="20" rx="3" fill="#ff6b35" opacity="0.5"/>
+    <text x="10" y="139" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#333">数据表格 (4-6h)</text>
+    <text x="560" y="139" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">15%</text>
+    
+    <rect x="0" y="150" width="580" height="20" rx="3" fill="#f5f5f5"/>
+    <rect x="0" y="150" width="90" height="20" rx="3" fill="#ff6b35" opacity="0.4"/>
+    <text x="10" y="164" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#333">政策标注 (2-3h)</text>
+    <text x="560" y="164" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">8%</text>
+    
+    <rect x="0" y="175" width="580" height="20" rx="3" fill="#f5f5f5"/>
+    <rect x="0" y="175" width="60" height="20" rx="3" fill="#5b6abf" opacity="0.4"/>
+    <text x="10" y="189" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#333">合规自查 (1-2h)</text>
+    <text x="560" y="189" text-anchor="end" font-family="sans-serif" font-size="10" fill="#666">5%</text>
+  </g>
+  
+  <text x="690" y="352" text-anchor="end" font-family="sans-serif" font-size="9" fill="#aaa">来源：中国工程咨询协会2024年调研</text>
+</svg>
