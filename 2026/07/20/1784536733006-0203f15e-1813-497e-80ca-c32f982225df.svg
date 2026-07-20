@@ -1,0 +1,29 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" width="940" height="400">
+  <defs>
+    <linearGradient id="bg01" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fafbfc"/><stop offset="1" stop-color="#f0f4ff"/></linearGradient>
+    <linearGradient id="spot01" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a6bff" stop-opacity="0"/><stop offset="0.5" stop-color="#1a6bff" stop-opacity="0.04"/><stop offset="1" stop-color="#1a6bff" stop-opacity="0.1"/></linearGradient>
+  </defs>
+  <rect width="940" height="400" fill="url(#bg01)"/>
+  
+  <!-- Searchlight cone (獴探 = 探索发现) -->
+  <polygon points="700,0 940,160 940,400 500,400" fill="url(#spot01)"/>
+  <line x1="700" y1="0" x2="500" y2="400" stroke="#1a6bff" stroke-width="1" opacity="0.06"/>
+  <line x1="700" y1="0" x2="600" y2="400" stroke="#1a6bff" stroke-width="0.5" opacity="0.04"/>
+  
+  <!-- Sharp chevron accent -->
+  <polygon points="880,30 940,30 890,70" fill="#1a6bff" opacity="0.08"/>
+  
+  <!-- Badge -->
+  <rect x="30" y="25" width="80" height="26" rx="13" fill="#1a6bff"/>
+  <text x="70" y="42" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#fff">发刊词</text>
+  
+  <!-- Title -->
+  <text x="50" y="175" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="42" font-weight="bold" fill="#0f172a">凌晨三点，</text>
+  <text x="50" y="230" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="42" font-weight="bold" fill="#0f172a">一份可研报告的效率真相</text>
+  
+  <!-- Accent line -->
+  <rect x="50" y="250" width="48" height="3" rx="1.5" fill="#1a6bff"/>
+  
+  <!-- Brand -->
+  <text x="910" y="370" text-anchor="end" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#94a3b8">清源智界 · 獴探</text>
+</svg>
