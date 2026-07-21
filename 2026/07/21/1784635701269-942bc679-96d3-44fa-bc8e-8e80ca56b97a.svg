@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Ansible Windows 示例流程</title>
+  <desc id="desc">展示 Ansible 管理 Windows 的三个步骤：配置清单、测试连通、执行 Playbook。</desc>
+  <rect width="900" height="430" fill="#fbfcff"/>
+  <text x="48" y="65" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#182033">最小使用流程</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="80" y="150" width="190" height="120" rx="22" fill="#edf5ff"/>
+    <text x="116" y="198" font-size="24" font-weight="700" fill="#2f6bd9">1. 写清单</text>
+    <text x="112" y="236" font-size="19" fill="#334155">inventory.ini</text>
+    <path d="M292 210 H354" stroke="#607089" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="380" y="150" width="190" height="120" rx="22" fill="#fff5df"/>
+    <text x="412" y="198" font-size="24" font-weight="700" fill="#946200">2. 测连通</text>
+    <text x="424" y="236" font-size="19" fill="#334155">win_ping</text>
+    <path d="M592 210 H654" stroke="#607089" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="680" y="150" width="190" height="120" rx="22" fill="#e8f7ef"/>
+    <text x="705" y="198" font-size="24" font-weight="700" fill="#24704d">3. 跑任务</text>
+    <text x="720" y="236" font-size="19" fill="#334155">Playbook</text>
+  </g>
+  <rect x="155" y="325" width="590" height="48" rx="24" fill="#ffffff" stroke="#d9deea"/>
+  <text x="203" y="356" font-family="Arial, sans-serif" font-size="20" fill="#5f6b80">先跑通连接，再逐步加入复制文件、执行脚本、安装软件等任务</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#607089"/>
+    </marker>
+  </defs>
+</svg>
