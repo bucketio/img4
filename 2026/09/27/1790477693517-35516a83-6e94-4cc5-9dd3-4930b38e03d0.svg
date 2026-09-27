@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',sans-serif">
+  <defs>
+    <radialGradient id="centerGrad" cx="0.5" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#2B4C7E"/>
+      <stop offset="1" stop-color="#1E3A5F"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="600" fill="#F8FAFC"/>
+
+  <!-- 标题 -->
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1E3A5F">质量规则分类：六大质量维度</text>
+  <text x="480" y="66" text-anchor="middle" font-size="13.5" fill="#64748B">规则分类按质量维度划分，一个分类可包含多个质量规则</text>
+
+  <!-- 放射连线（置于底层） -->
+  <g stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="4,4">
+    <line x1="480" y1="320" x2="480" y2="120"/>
+    <line x1="480" y1="320" x2="653" y2="220"/>
+    <line x1="480" y1="320" x2="653" y2="420"/>
+    <line x1="480" y1="320" x2="480" y2="520"/>
+    <line x1="480" y1="320" x2="307" y2="420"/>
+    <line x1="480" y1="320" x2="307" y2="220"/>
+  </g>
+
+  <!-- 中心圆 -->
+  <circle cx="480" cy="320" r="72" fill="url(#centerGrad)"/>
+  <circle cx="480" cy="320" r="72" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-dasharray="2,3" opacity="0.7"/>
+  <text x="480" y="314" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">数据质量</text>
+  <text x="480" y="340" text-anchor="middle" font-size="13" fill="#BFDBFE">六大维度</text>
+
+  <!-- 维度卡片：完整性（顶部） -->
+  <g>
+    <rect x="390" y="77" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="390" y="89" width="6" height="62" rx="3" fill="#2563EB"/>
+    <text x="412" y="112" font-size="16" font-weight="bold" fill="#2563EB">完整性</text>
+    <text x="412" y="138" font-size="12" fill="#64748B">数据不缺失、非空有值</text>
+  </g>
+
+  <!-- 维度卡片：有效性（右上） -->
+  <g>
+    <rect x="563" y="177" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="563" y="189" width="6" height="62" rx="3" fill="#0891B2"/>
+    <text x="585" y="212" font-size="16" font-weight="bold" fill="#0891B2">有效性</text>
+    <text x="585" y="238" font-size="12" fill="#64748B">符合格式、类型与值域</text>
+  </g>
+
+  <!-- 维度卡片：一致性（左上） -->
+  <g>
+    <rect x="217" y="177" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="217" y="189" width="6" height="62" rx="3" fill="#7C3AED"/>
+    <text x="239" y="212" font-size="16" font-weight="bold" fill="#7C3AED">一致性</text>
+    <text x="239" y="238" font-size="12" fill="#64748B">跨系统口径保持一致</text>
+  </g>
+
+  <!-- 维度卡片：唯一性（右下） -->
+  <g>
+    <rect x="563" y="377" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="563" y="389" width="6" height="62" rx="3" fill="#DB2777"/>
+    <text x="585" y="412" font-size="16" font-weight="bold" fill="#DB2777">唯一性</text>
+    <text x="585" y="438" font-size="12" fill="#64748B">无重复记录与冲突</text>
+  </g>
+
+  <!-- 维度卡片：准确性（左下） -->
+  <g>
+    <rect x="217" y="377" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="217" y="389" width="6" height="62" rx="3" fill="#EA580C"/>
+    <text x="239" y="412" font-size="16" font-weight="bold" fill="#EA580C">准确性</text>
+    <text x="239" y="438" font-size="12" fill="#64748B">与真实业务相吻合</text>
+  </g>
+
+  <!-- 维度卡片：及时性（底部） -->
+  <g>
+    <rect x="390" y="477" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="390" y="489" width="6" height="62" rx="3" fill="#16A34A"/>
+    <text x="412" y="512" font-size="16" font-weight="bold" fill="#16A34A">及时性</text>
+    <text x="412" y="538" font-size="12" fill="#64748B">按约定时间可用</text>
+  </g>
+</svg>
